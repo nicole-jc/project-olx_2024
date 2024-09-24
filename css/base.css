@@ -10,27 +10,23 @@ body {
 @keyframes mymove {
     50% {background-color: rgb(218, 141, 228);}
   }
-  /* width */
+
 ::-webkit-scrollbar {
     width: 10px;
   }
   
-  /* Track */
   ::-webkit-scrollbar-track {
     background: #f1f1f1;
   }
   
-  /* Handle */
   ::-webkit-scrollbar-thumb {
     background: #888;
   }
   
-  /* Handle on hover */
   ::-webkit-scrollbar-thumb:hover {
     background: #555;
   }
   
-
 /*HEADER*/
 #headmenu {
     background-color: #1e1e1e;
@@ -142,7 +138,7 @@ body {
 aside {
     background-color: #232323;
     width: 50px;
-    position: fixed; /* Fixa o aside na tela */
+    position: fixed;
     top: 0;
     bottom: 0;
     left: 0;
@@ -150,7 +146,7 @@ aside {
     overflow-y: auto;
     z-index: 1000;
     box-shadow: 8px 8px 8px rgba(0, 0, 0, 0.2);
-    height: 100vh; /* Altura total da viewport */
+    height: 100vh;
 }
 
 nav {
@@ -257,7 +253,7 @@ main {
 }
 
 .adsection h4 {
-    margin: 0; /* Remove a margem padrão */
+    margin: 0;
     color:#d5d5d5;
     font-family: 'Work Sans', sans-serif;
 }
@@ -427,7 +423,7 @@ main {
     padding: 20px;
     border-radius: 8px;
     box-shadow: 8px 8px 10px rgba(0, 0, 0, 0.1);
-    width: 800px; /* Ajuste conforme necessário */
+    width: 800px;
     margin: 80px auto;
     display: flex;
     align-items: flex-start;
@@ -457,15 +453,15 @@ main {
 }
 
 .right-image-container {
-    flex: 0 0 auto; /* Ajusta a largura da imagem ao seu tamanho natural */
-    align-items: center; /* Alinha a imagem ao centro */
+    flex: 0 0 auto;
+    align-items: center;
 }
 
 .create-section input[type="text"], 
 .create-section input[type="file"], 
 .create-section textarea, 
 .create-section select {
-    width: calc(100% - 20px); /* Ajuste a largura para se adequar ao novo layout */
+    width: calc(100% - 20px);
     padding: 8px;
     margin: 8px 0;
     border-radius: 5px;
@@ -495,10 +491,9 @@ main {
 }
 
 .right-image {
-    width: 150px; /* Ajuste conforme necessário */
+    width: 150px;
     height: auto;
 }
-
 
 /* AD PAGE */
 .ad-pagesection{
@@ -548,14 +543,14 @@ main {
 .ad-form {
     display: flex;
     flex-direction: column;
-    align-items: flex-end; /* Alinhar os botões à direita */
+    align-items: flex-end;
     margin-top: 20px;
 }
 
 .ad-form .form-buttons {
     display: flex;
-    gap: 10px; /* Espaçamento entre os botões */
-    margin-top: auto; /* Empurra os botões para o fundo do formulário */
+    gap: 10px;
+    margin-top: auto;
 }
 
 .ad-form .search-button {
